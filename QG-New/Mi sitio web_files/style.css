@@ -1,0 +1,208 @@
+/* Estilos generales */
+body {
+    font-family: auto;
+    color: #253575;
+    background: #5000adba url(fondo.png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 21px;
+    padding: 0;
+}
+
+/* Estructura básica */
+#contenedor {
+    width: 770px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#cabecera {
+    height: 193px;
+    background: url('cabecera.gif') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#logo a {
+    font-family: serif;
+    font-style: oblique;
+    font-size: 43px;
+    color: #e80dff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 149px;
+    padding-top: 12px;
+    margin-top: 0px;
+}
+
+#buscador {
+    background: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#buscador input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+#buscador input[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background: #e80dff;
+    color: white;
+    cursor: pointer;
+}
+
+#menu {
+    background: #000000;
+}
+
+#menu ul {
+    background-color: #00000000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu ul li {
+    margin: 0;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #B5C4E3;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+#menu ul li a:hover {
+    background: #31479B;
+}
+
+#menu ul li.seleccionado a {
+    background: white;
+    color: #e80dff;
+}
+
+/* Contenido principal */
+#contenido {
+    display: flex;
+    padding: 20px;
+}
+
+#principal {
+    width: 530px;
+    margin-right: 20px;
+}
+
+.articulo {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.articulo h2 a {
+    color: #192666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.articulo h2 a:hover {
+    color: #FF9000;
+}
+
+.articulo .info {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.articulo p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.articulo .btn-more a {
+    color: #FF9000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.articulo .btn-more a:hover {
+    color: #31479B;
+}
+
+/* Contenido secundario */
+#secundario {
+    width: 200px;
+}
+
+#secundario h3 {
+    font-size: 18px;
+    background: #0f258a;
+    color: #f2f5fe;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#secundario div, #secundario ul {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#secundario h3 a {
+    color: inherit; 
+    text-decoration: none; 
+    cursor: default; 
+}
+
+#secundario ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#secundario ul li {
+    margin-bottom: 10px;
+}
+
+#secundario ul li a {
+    color: #192666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#secundario ul li a:hover {
+    color: #FF9000;
+}
+
+#pie {
+    background: #192666;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.clear {
+    clear: both;
+}
